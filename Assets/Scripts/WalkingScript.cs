@@ -21,7 +21,16 @@ public class WalkingScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.D))
         {
-            rb.velocity = 
+            rb.velocity = new Vector2(2.0f, rb.velocity.y);
+        }
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            rb.velocity = new Vector2(-2.0f, rb.velocity.y);
+        }
+
+        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+        {
+            rb.velocity = Vector2.zero;
         }
     }
 }
