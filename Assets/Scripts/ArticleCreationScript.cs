@@ -16,19 +16,19 @@ public class ArticleCreationScript : MonoBehaviour
         {
             case 1:
                 week1Article = article;
-                Debug.Log(week1Article);
+                Debug.Log("Article " + week1Article + " selected");
                 break;
             case 2: 
                 week2Article = article;
-                Debug.Log(week2Article);
+                Debug.Log("Article " + week2Article + " selected");
                 break;
             case 3: 
                 week3Article = article;
-                Debug.Log(week3Article);
+                Debug.Log("Article " + week3Article + " selected");
                 break;
             case 4: 
                 week4Article = article;
-                Debug.Log(week4Article);
+                Debug.Log("Article " + week4Article + " selected");
                 break;
         }
     }
@@ -39,11 +39,11 @@ public class ArticleCreationScript : MonoBehaviour
 
         if (currentWeek == 5)
         {
-            Debug.Log("Week 1: " + week1Article + ", Week 2:" + week2Article + ", Week 3: " + week3Article + ", Week 4: " + week4Article);
+            Debug.Log("RESULTS:\nWeek 1: " + week1Article + ", Week 2: " + week2Article + ", Week 3: " + week3Article + ", Week 4: " + week4Article);
         }
         else
         {
-            Debug.Log(currentWeek);
+            Debug.Log("Progressed to week " + currentWeek);
         }
     }
 }
