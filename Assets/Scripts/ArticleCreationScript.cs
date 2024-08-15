@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ArticleCreationScript : MonoBehaviour
 {
+    [Header("Values > General")]
     private int week1Article;
     private int week2Article;
     private int week3Article;
