@@ -6927,9 +6927,6 @@ MonoBehaviour:
   - Testy cool
   - Ecks dee
   - XD!!!!!!!!!!!!!!!!!
-  segment2HeaderText: {fileID: 291085576}
-  segment2BodyText: {fileID: 2144366089}
-  segment2Image: {fileID: 1323214308}
   submittingArticle1Body:
   - Week 1 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
   - Week 2 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
@@ -6960,11 +6957,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 0cd6f46030aaf5544bdcdba4ab8d85e1, type: 3}
   - {fileID: 21300000, guid: 7a1052a34cd237c47b6e4771b6cf60e7, type: 3}
   - {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
-  segment3HeaderText: {fileID: 1312705070}
-  segment3BodyText: {fileID: 1769867750}
-  comment1BodyText: {fileID: 1206297529}
-  comment2BodyText: {fileID: 1973679617}
-  comment3BodyText: {fileID: 567510667}
   article1Comment1Body:
   - Week 1 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
   - Week 2 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
@@ -7010,19 +7002,71 @@ MonoBehaviour:
   - Week 2 Article 3 Comment 3 TEST TEST TEST TEST TEST TEST
   - Week 3 Article 3 Comment 3 TEST TEST TEST TEST TEST TEST
   - Week 4 Article 3 Comment 3 TEST TEST TEST TEST TEST TEST
-  segment3Image: {fileID: 1495780821}
   segment3Time: 8
   segment3CommentsDelay: 1.5
+  article1EmailSubject:
+  - 'Subject: Week 1 Article 1 Email Subject'
+  - 'Subject: Week 2 Article 1 Email Subject'
+  - 'Subject: Week 3 Article 1 Email Subject'
+  - 'Subject: Week 4 Article 1 Email Subject'
+  article2EmailSubject:
+  - 'Subject: Week 1 Article 2 Email Subject'
+  - 'Subject: Week 2 Article 2 Email Subject'
+  - 'Subject: Week 3 Article 2 Email Subject'
+  - 'Subject: Week 4 Article 2 Email Subject'
+  article3EmailSubject:
+  - 'Subject: Week 1 Article 3 Email Subject'
+  - 'Subject: Week 2 Article 3 Email Subject'
+  - 'Subject: Week 3 Article 3 Email Subject'
+  - 'Subject: Week 4 Article 3 Email Subject'
+  article1EmailBody:
+  - Week 1 Article 1 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 2 Article 1 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 3 Article 1 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 4 Article 1 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  article2EmailBody:
+  - Week 1 Article 2 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 2 Article 2 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 3 Article 2 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 4 Article 2 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  article3EmailBody:
+  - Week 1 Article 3 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 2 Article 3 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 3 Article 3 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
+  - Week 4 Article 3 Body TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+    TEST
   levelToLoadAtEnd: OutroWalkingLevel
   weekCounter: {fileID: 1352204938}
   article1: {fileID: 1716952127}
   article2: {fileID: 1457900792}
   article3: {fileID: 271577591}
+  segment2HeaderText: {fileID: 291085576}
+  segment2BodyText: {fileID: 2144366089}
+  segment2Image: {fileID: 1323214308}
   segment3: {fileID: 689455406}
+  segment3HeaderText: {fileID: 1312705070}
+  segment3BodyText: {fileID: 1769867750}
+  segment3Image: {fileID: 1495780821}
   comment1: {fileID: 318940363}
   comment2: {fileID: 340429714}
   comment3: {fileID: 1340859431}
+  comment1BodyText: {fileID: 1206297529}
+  comment2BodyText: {fileID: 1973679617}
+  comment3BodyText: {fileID: 567510667}
   segment4: {fileID: 394174022}
+  emailSubjectLineText: {fileID: 1788043824}
+  emailBodyText: {fileID: 610058456}
 --- !u!1 &1894767129
 GameObject:
   m_ObjectHideFlags: 0

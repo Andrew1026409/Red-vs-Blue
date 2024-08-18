@@ -18,9 +18,6 @@ public class ArticleCreationScript : MonoBehaviour
     private int currentWeek = 1;
 
     [Header("===== Values > Segment 2 =====")]
-    [SerializeField] private TextMeshProUGUI segment2HeaderText;
-    [SerializeField] private TextMeshProUGUI segment2BodyText;
-    [SerializeField] private Image segment2Image;
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> submittingArticle1Body = new List<string>();
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<Sprite> submittingArticle1Image = new List<Sprite>();
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> submittingArticle2Body = new List<string>();
@@ -29,11 +26,6 @@ public class ArticleCreationScript : MonoBehaviour
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<Sprite> submittingArticle3Image = new List<Sprite>();
 
     [Header("===== Values > Segment 3 =====")]
-    [SerializeField] private TextMeshProUGUI segment3HeaderText;
-    [SerializeField] private TextMeshProUGUI segment3BodyText;
-    [SerializeField] private TextMeshProUGUI comment1BodyText;
-    [SerializeField] private TextMeshProUGUI comment2BodyText;
-    [SerializeField] private TextMeshProUGUI comment3BodyText;
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article1Comment1Body = new List<string>();
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article1Comment2Body = new List<string>();
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article1Comment3Body = new List<string>();
@@ -43,11 +35,16 @@ public class ArticleCreationScript : MonoBehaviour
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article3Comment1Body = new List<string>();
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article3Comment2Body = new List<string>();
     [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article3Comment3Body = new List<string>();
-    [SerializeField] private Image segment3Image;
     [SerializeField] private float segment3Time;
     [SerializeField] private float segment3CommentsDelay;
 
     [Header("===== Values > Segment 4 =====")]
+    [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article1EmailSubject = new List<string>();
+    [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article2EmailSubject = new List<string>();
+    [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article3EmailSubject = new List<string>();
+    [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article1EmailBody = new List<string>();
+    [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article2EmailBody = new List<string>();
+    [Tooltip("Each subsequent entry into this list is counted as the next week, e.g. entry 2 is counted as week 2")] [SerializeField] private List<string> article3EmailBody = new List<string>();
     [SerializeField] private string levelToLoadAtEnd;
 
     [Header("===== Object References > Segment 1 =====")]
@@ -55,15 +52,28 @@ public class ArticleCreationScript : MonoBehaviour
     [SerializeField] private GameObject article1;
     [SerializeField] private GameObject article2;
     [SerializeField] private GameObject article3;
+    
+    [Header("===== Object References > Segment 2 =====")]
+    [SerializeField] private TextMeshProUGUI segment2HeaderText;
+    [SerializeField] private TextMeshProUGUI segment2BodyText;
+    [SerializeField] private Image segment2Image;
 
     [Header("===== Object References > Segment 3 =====")]
     [SerializeField] private GameObject segment3;
+    [SerializeField] private TextMeshProUGUI segment3HeaderText;
+    [SerializeField] private TextMeshProUGUI segment3BodyText;
+    [SerializeField] private Image segment3Image;
     [SerializeField] private GameObject comment1;
     [SerializeField] private GameObject comment2;
     [SerializeField] private GameObject comment3;
+    [SerializeField] private TextMeshProUGUI comment1BodyText;
+    [SerializeField] private TextMeshProUGUI comment2BodyText;
+    [SerializeField] private TextMeshProUGUI comment3BodyText;
 
     [Header("===== Object References > Segment 4 =====")]
     [SerializeField] private GameObject segment4;
+    [SerializeField] private TextMeshProUGUI emailSubjectLineText;
+    [SerializeField] private TextMeshProUGUI emailBodyText;
 
     private void OnEnable()
     {
@@ -278,6 +288,80 @@ public class ArticleCreationScript : MonoBehaviour
                 }
                 break;
             case 3: // FOR CHANGING THE BOSS' EMAIL SUBJECT LINE AND BODY 
+                switch (currentWeek)
+                {
+                    case 1:
+                        switch (week1Article)
+                        {
+                            case 1:
+                                emailSubjectLineText.text = article1EmailSubject[0];
+                                emailBodyText.text = article1EmailBody[0];
+                                break;
+                            case 2:
+                                emailSubjectLineText.text = article2EmailSubject[0];
+                                emailBodyText.text = article2EmailBody[0];
+                                break;
+                            case 3:
+                                emailSubjectLineText.text = article3EmailSubject[0];
+                                emailBodyText.text = article3EmailBody[0];
+                                break;
+                        }
+
+                        break;
+                    case 2:
+                        switch (week2Article)
+                        {
+                            case 1:
+                                emailSubjectLineText.text = article1EmailSubject[1];
+                                emailBodyText.text = article1EmailBody[1];
+                                break;
+                            case 2:
+                                emailSubjectLineText.text = article2EmailSubject[1];
+                                emailBodyText.text = article2EmailBody[1];
+                                break;
+                            case 3:
+                                emailSubjectLineText.text = article3EmailSubject[1];
+                                emailBodyText.text = article3EmailBody[1];
+                                break;
+                        }
+
+                        break;
+                    case 3:
+                        switch (week3Article)
+                        {
+                            case 1:
+                                emailSubjectLineText.text = article1EmailSubject[2];
+                                emailBodyText.text = article1EmailBody[2];
+                                break;
+                            case 2:
+                                emailSubjectLineText.text = article2EmailSubject[2];
+                                emailBodyText.text = article2EmailBody[2];
+                                break;
+                            case 3:
+                                emailSubjectLineText.text = article3EmailSubject[2];
+                                emailBodyText.text = article3EmailBody[2];
+                                break;
+                        }
+
+                        break;
+                    case 4:
+                        switch (week4Article)
+                        {
+                            case 1:
+                                emailSubjectLineText.text = article1EmailSubject[3];
+                                emailBodyText.text = article1EmailBody[3];
+                                break;
+                            case 2:
+                                emailSubjectLineText.text = article2EmailSubject[3];
+                                emailBodyText.text = article2EmailBody[3];
+                                break;
+                            case 3:
+                                emailSubjectLineText.text = article3EmailSubject[3];
+                                emailBodyText.text = article3EmailBody[3];
+                                break;
+                        }
+                        break;
+                }
                 break;
         }
     }
@@ -327,6 +411,7 @@ public class ArticleCreationScript : MonoBehaviour
     {
         StartCoroutine(CommentsAppear());
         yield return new WaitForSeconds(segment3Time);
+        UpdateArticles(3);
         segment3.SetActive(false);
         segment4.SetActive(true);
     }
