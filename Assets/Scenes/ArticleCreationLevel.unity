@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d5276a5e495dc9146b4740ca5e2383bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -347,7 +347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: User1
+  m_text: User
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1631,6 +1631,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888604131}
+        m_TargetAssemblyTypeName: ArticleCreationScript, Assembly-CSharp
+        m_MethodName: UpdateArticles
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 318940363}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -2537,7 +2549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d5276a5e495dc9146b4740ca5e2383bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2993,7 +3005,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: User2
+  m_text: User
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3653,7 +3665,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d5276a5e495dc9146b4740ca5e2383bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5638,7 +5650,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: User3
+  m_text: User
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5847,7 +5859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d5276a5e495dc9146b4740ca5e2383bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6915,6 +6927,90 @@ MonoBehaviour:
   - Testy cool
   - Ecks dee
   - XD!!!!!!!!!!!!!!!!!
+  segment2HeaderText: {fileID: 291085576}
+  segment2BodyText: {fileID: 2144366089}
+  segment2Image: {fileID: 1323214308}
+  submittingArticle1Body:
+  - Week 1 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  submittingArticle1Image:
+  - {fileID: 21300000, guid: 7a1052a34cd237c47b6e4771b6cf60e7, type: 3}
+  - {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  - {fileID: 21300000, guid: 607d0af0cc6c8d24fa73e71ca42dd0c3, type: 3}
+  - {fileID: 21300000, guid: 0cd6f46030aaf5544bdcdba4ab8d85e1, type: 3}
+  submittingArticle2Body:
+  - Week 1 Article 2 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 2 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 2 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 2 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  submittingArticle2Image:
+  - {fileID: 21300000, guid: 0cd6f46030aaf5544bdcdba4ab8d85e1, type: 3}
+  - {fileID: 21300000, guid: 7a1052a34cd237c47b6e4771b6cf60e7, type: 3}
+  - {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  - {fileID: 21300000, guid: 607d0af0cc6c8d24fa73e71ca42dd0c3, type: 3}
+  submittingArticle3Body:
+  - Week 1 Article 3 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 3 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 3 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 3 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  submittingArticle3Image:
+  - {fileID: 21300000, guid: 607d0af0cc6c8d24fa73e71ca42dd0c3, type: 3}
+  - {fileID: 21300000, guid: 0cd6f46030aaf5544bdcdba4ab8d85e1, type: 3}
+  - {fileID: 21300000, guid: 7a1052a34cd237c47b6e4771b6cf60e7, type: 3}
+  - {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  segment3HeaderText: {fileID: 1312705070}
+  segment3BodyText: {fileID: 1769867750}
+  comment1BodyText: {fileID: 1206297529}
+  comment2BodyText: {fileID: 1973679617}
+  comment3BodyText: {fileID: 567510667}
+  article1Comment1Body:
+  - Week 1 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
+  article1Comment2Body:
+  - Week 1 Article 1 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 1 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 1 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 1 Comment 2 TEST TEST TEST TEST TEST TEST
+  article1Comment3Body:
+  - Week 1 Article 1 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 1 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 1 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 1 Comment 3 TEST TEST TEST TEST TEST TEST
+  article2Comment1Body:
+  - Week 1 Article 2 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 2 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 2 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 2 Comment 1 TEST TEST TEST TEST TEST TEST
+  article2Comment2Body:
+  - Week 1 Article 2 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 2 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 2 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 2 Comment 2 TEST TEST TEST TEST TEST TEST
+  article2Comment3Body:
+  - Week 1 Article 2 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 2 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 2 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 2 Comment 3 TEST TEST TEST TEST TEST TEST
+  article3Comment1Body:
+  - Week 1 Article 3 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 3 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 3 Comment 1 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 3 Comment 1 TEST TEST TEST TEST TEST TEST
+  article3Comment2Body:
+  - Week 1 Article 3 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 3 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 3 Comment 2 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 3 Comment 2 TEST TEST TEST TEST TEST TEST
+  article3Comment3Body:
+  - Week 1 Article 3 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 2 Article 3 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 3 Article 3 Comment 3 TEST TEST TEST TEST TEST TEST
+  - Week 4 Article 3 Comment 3 TEST TEST TEST TEST TEST TEST
+  segment3Image: {fileID: 1495780821}
   segment3Time: 8
   segment3CommentsDelay: 1.5
   levelToLoadAtEnd: OutroWalkingLevel
@@ -7010,6 +7106,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1888604131}
+        m_TargetAssemblyTypeName: ArticleCreationScript, Assembly-CSharp
+        m_MethodName: UpdateArticles
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1412894939}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -7601,7 +7709,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1888604131}
         m_TargetAssemblyTypeName: ArticleCreationScript, Assembly-CSharp
         m_MethodName: UpdateArticles
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
