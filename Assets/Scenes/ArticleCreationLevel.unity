@@ -6914,57 +6914,78 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weeklyArticle1Drafts:
   - Parents struggling to tackle bullying as unhappiness rates increase
-  - Testy cool
-  - Ecks dee
+  - Red and Blue Economic challage
+  - New Public Transit System Stirs Debate
   - XD!!!!!!!!!!!!!!!!!
   weeklyArticle2Drafts:
   - Blues are more prone to discrimination in the workplace, study says
-  - Testy cool
-  - Ecks dee
+  - Blue lead protecting enviroment, Red fall
+  - The inability of some Blue groups to access funding but Red are easy to access
   - XD!!!!!!!!!!!!!!!!!
   weeklyArticle3Drafts:
   - Blue rights protest erupts amid new red-empowering legislation
-  - Testy cool
-  - Ecks dee
+  - 'Reds Reject, Blues presist : The Fight for Better Healthcare'
+  - Fight Over Exam Reforms Pits Red vs Blues on Campus Divide's Front Line
   - XD!!!!!!!!!!!!!!!!!
   submittingArticle1Body:
   - Parents are urging teachers and education staff to take action on the increased
     cases of bullying seen in schools as the rate of unhappiness that is reported
     by students reaches an all-time high. Students are finding it harder to form
     friendships as a result of the increased unhappiness.
-  - Week 2 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
-  - Week 3 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - 40% of the Red have experienced economic setback and  60% of the blue are struggling
+    with higher living costs". This  situtation have hightlight the challage that
+    both group face,  suggesting that cooperate together will help improve the overall
+    economic enviroment.
+  - New public transit system has ignited a debate among residents. While the system
+    promises to improve connectivity and efficiency  across the nation, Blue highlight
+    the benefits of reduced travel  times and increased accessibility, while Red
+    argue that the project  may lead to disruptions and environmental concerns.
   - Week 4 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
   submittingArticle1Image:
   - {fileID: 21300000, guid: 658ae67d52058e540b3b88bc2e83cc7b, type: 3}
-  - {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
-  - {fileID: 21300000, guid: 607d0af0cc6c8d24fa73e71ca42dd0c3, type: 3}
+  - {fileID: 21300000, guid: 614352a7e8bfd2a44aa2709912eb1694, type: 3}
+  - {fileID: 21300000, guid: 375541eaa887b7e4697556b136a00111, type: 3}
   - {fileID: 21300000, guid: 0cd6f46030aaf5544bdcdba4ab8d85e1, type: 3}
   submittingArticle2Body:
   - A new study by the University of Bluewater has concluded that 63% of Blues feel
     that they are discriminated against in the workplace, while 27% say that they
     are unsure, and the remaining 10% feel that they don't experience discrimination
     in the workplace.
-  - Week 2 Article 2 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
-  - Week 3 Article 2 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - 70% of the blues are actively involving in Environmental  projects, while only
+    30% of the Red doing the same".The  Blues are leading the way in supporting sustainability,
+    while  the Reds are still focused on economic gains, even if it means  hurting
+    the environment. This difference shows that the Reds  need to be more responsible
+    with the environment.
+  - Blue societies have expressed concerns over a recently launched  project that
+    will focus on Red communities, fearing it would simply  widen the gap of social
+    capital. A Blue leader has warned that,  "While the program affords important
+    resources to individuals of  particular background in Red areas, this new endeavor
+    risks only widening gaps."
   - Week 4 Article 2 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
   submittingArticle2Image:
   - {fileID: 21300000, guid: 267cb7a2da6665b49a8789163462916a, type: 3}
-  - {fileID: 21300000, guid: 7a1052a34cd237c47b6e4771b6cf60e7, type: 3}
-  - {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  - {fileID: 21300000, guid: 89168a197bbaf9d40b23b22a9df0b810, type: 3}
+  - {fileID: 21300000, guid: eadfac5d09f3fe941b15988d5fbdf8a4, type: 3}
   - {fileID: 21300000, guid: 607d0af0cc6c8d24fa73e71ca42dd0c3, type: 3}
   submittingArticle3Body:
   - Groups of blues have rallied outside of the congress house in protest as a result
     of a new legislation that has been pushed which could give more legal power to
     the Reds, Attorney Mark Lee says. "We've dealt with racism for long enough and
     this will only keep it going", says a member of the protest.
-  - Week 2 Article 3 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
-  - Week 3 Article 3 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - 10% of reds oppose new health care technologies And 90% of blues want new technology
+    to become widely  available use. Blue thinks Red is unwilling to change  Putting
+    public health at risk, recommendations will be made  Prioritize access to advanced
+    healthcare for all.
+  - Red activists increasingly were alarmed by a new program introduced supposed
+    to help the Red communities. A  spokesperson of our Blue Town community said
+    that even though  the initiative offers important resources for some members
+    from  Red Towns, people here are afraid there may be side effects and  it might
+    create more discrepancies between societies.
   - Week 4 Article 3 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
   submittingArticle3Image:
   - {fileID: 21300000, guid: 194713caa5388204fac4c0d7c175ddc7, type: 3}
-  - {fileID: 21300000, guid: 0cd6f46030aaf5544bdcdba4ab8d85e1, type: 3}
-  - {fileID: 21300000, guid: 7a1052a34cd237c47b6e4771b6cf60e7, type: 3}
+  - {fileID: 21300000, guid: c3796859879929a4e8c6494120831ff5, type: 3}
+  - {fileID: 21300000, guid: 838ea5ca76e7b944497aa13b9e046abb, type: 3}
   - {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
   article1Comment1Body:
   - Week 1 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
