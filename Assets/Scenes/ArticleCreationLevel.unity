@@ -6913,21 +6913,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weeklyArticle1Drafts:
+<<<<<<< Updated upstream
   - Blue workers go on 6 days of strikes as calls for equality in wage rates
   - A Red Police Officer is being investigated after assaulting a Blue Citizen
   - Blues nation wide are standing up the managment as companies face mass quitting
   - XD!!!!!!!!!!!!!!!!!
+=======
+  - Parents struggling to tackle bullying as unhappiness rates increase
+  - Red and Blue Economic challage
+  - New Public Transit System Stirs Debate
+  - Blue workers go on 6 days of strikes as calls for equality in wage rates
+>>>>>>> Stashed changes
   weeklyArticle2Drafts:
   - Blues are more prone to discrimination in the workplace, study says
   - Blue lead protecting enviroment, Red fall
   - The inability of some Blue groups to access funding but Red are easy to access
-  - XD!!!!!!!!!!!!!!!!!
+  - A Red Police Officer is being investigated after assaulting a Blue Citizen
   weeklyArticle3Drafts:
   - Blue rights protest erupts amid new red-empowering legislation
   - 'Reds Reject, Blues presist : The Fight for Better Healthcare'
   - Fight Over Exam Reforms Pits Red vs Blues on Campus Divide's Front Line
-  - XD!!!!!!!!!!!!!!!!!
+  - Blues nation wide are standing up the managment as companies face mass quitting
   submittingArticle1Body:
+<<<<<<< Updated upstream
   - 'In a recent study it was found that 70% of Blue workers are underpaid by 15%
     in Retail and hospitality workplaces. The Blues blame the lack of representation
     in the managerial postions in numerous companies, and would like to see more
@@ -6942,11 +6950,34 @@ MonoBehaviour:
     in mass rates,as the divide between Red leadership and Blue workers is gradually
     getting larger and larger.  '
   - Week 4 Article 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+=======
+  - Parents are urging teachers and education staff to take action on the increased
+    cases of bullying seen in schools as the rate of unhappiness that is reported
+    by students reaches an all-time high. Students are finding it harder to form
+    friendships as a result of the increased unhappiness.
+  - 40% of the Red have experienced economic setback and  60% of the blue are struggling
+    with higher living costs". This  situtation have hightlight the challage that
+    both group face,  suggesting that cooperate together will help improve the overall
+    economic enviroment.
+  - New public transit system has ignited a debate among residents. While the system
+    promises to improve connectivity and efficiency  across the nation, Blue highlight
+    the benefits of reduced travel  times and increased accessibility, while Red
+    argue that the project  may lead to disruptions and environmental concerns.
+  - In a recent study it was found that 70% of Blue workers are underpaid by 15%
+    in Retail and hospitality workplaces. The Blues blame the lack of representation
+    in the managerial postions in numerous companies, and would like to see more
+    Blues in Positions of power.
+>>>>>>> Stashed changes
   submittingArticle1Image:
   - {fileID: 21300000, guid: a08fd3ad8e75d094ba65faef62a3e903, type: 3}
   - {fileID: 21300000, guid: 614352a7e8bfd2a44aa2709912eb1694, type: 3}
+<<<<<<< Updated upstream
   - {fileID: 21300000, guid: 5d906e575719680448ff979cf6e40c95, type: 3}
   - {fileID: 21300000, guid: 0cd6f46030aaf5544bdcdba4ab8d85e1, type: 3}
+=======
+  - {fileID: 21300000, guid: 375541eaa887b7e4697556b136a00111, type: 3}
+  - {fileID: 21300000, guid: a08fd3ad8e75d094ba65faef62a3e903, type: 3}
+>>>>>>> Stashed changes
   submittingArticle2Body:
   - A new study by the University of Bluewater has concluded that 63% of Blues feel
     that they are discriminated against in the workplace, while 27% say that they
@@ -6962,12 +6993,17 @@ MonoBehaviour:
     capital. A Blue leader has warned that,  "While the program affords important
     resources to individuals of  particular background in Red areas, this new endeavor
     risks only widening gaps."
-  - Week 4 Article 2 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - A Red officer is being investigated after allegedgly assaulting a Blue. In the
+    indicent the Red officer had singled out the Blue as being a suspect for a previously
+    reported crime, durring the confrontation the officer was standing to close and
+    was attempting to intimidate the Blue Citizen, they then attempted to nugde the
+    officer away. The officer didn't take kindly to this and then slammed the suspect
+    onto the sidewalk. He is now being investigated.
   submittingArticle2Image:
   - {fileID: 21300000, guid: 267cb7a2da6665b49a8789163462916a, type: 3}
   - {fileID: 21300000, guid: 89168a197bbaf9d40b23b22a9df0b810, type: 3}
   - {fileID: 21300000, guid: eadfac5d09f3fe941b15988d5fbdf8a4, type: 3}
-  - {fileID: 21300000, guid: 607d0af0cc6c8d24fa73e71ca42dd0c3, type: 3}
+  - {fileID: 21300000, guid: aa1272741bb485943abf600ef5bd980b, type: 3}
   submittingArticle3Body:
   - Groups of blues have rallied outside of the congress house in protest as a result
     of a new legislation that has been pushed which could give more legal power to
@@ -6982,12 +7018,14 @@ MonoBehaviour:
     that even though  the initiative offers important resources for some members
     from  Red Towns, people here are afraid there may be side effects and  it might
     create more discrepancies between societies.
-  - Week 4 Article 3 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  - In a recent survey it was found that Blues are quitting toxic company enviroments
+    in mass rates,as the divide between Red leadership and Blue workers is gradually
+    getting larger and larger.
   submittingArticle3Image:
   - {fileID: 21300000, guid: 194713caa5388204fac4c0d7c175ddc7, type: 3}
   - {fileID: 21300000, guid: c3796859879929a4e8c6494120831ff5, type: 3}
   - {fileID: 21300000, guid: 838ea5ca76e7b944497aa13b9e046abb, type: 3}
-  - {fileID: 21300000, guid: fda6351a67748ea42b29985cd2049662, type: 3}
+  - {fileID: 21300000, guid: 5d906e575719680448ff979cf6e40c95, type: 3}
   article1Comment1Body:
   - Week 1 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
   - Week 2 Article 1 Comment 1 TEST TEST TEST TEST TEST TEST
